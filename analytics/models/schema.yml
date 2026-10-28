@@ -1,0 +1,13 @@
+models:
+  - name: top_location
+    description: Top 10 location by posting
+    config:
+      persist_docs:
+        relation: true
+        columns: true 
+    columns:
+      - name : job_location
+        description : Posting Location for the job
+      - name : postings
+        description: posted counted for each job
+
