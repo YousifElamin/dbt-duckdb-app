@@ -8,6 +8,8 @@ models:
     columns:
       - name : job_location
         description : Posting Location for the job
+        data_tests:
+          - not_null
       - name : postings
         description: posted counted for each job
 
